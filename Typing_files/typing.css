@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #241412;
+    font: normal 14px/21px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+.typing {
+    width: 100%;
+    margin: 0 auto;
+    }
+
+.typing h1 {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    margin-bottom: 14px;
+    }
+
+.typing .control {
+    margin: 0 0 1em;
+    white-space: nowrap;
+    }
+    .typing .control .select {
+        vertical-align: top;
+        display: inline-block;
+        margin-right: 14px;
+        }
+    .typing .control .select strong {
+        display: block;
+        font-weight: normal;
+        color: #888a85;
+        font-size: 12px;
+        }
+    .typing .control .select select {
+        width: 146px;
+        }
+    .typing .control .select.mapping {
+        margin-right: 0;
+        }
+
+.typing .indicators {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #888a85;
+    }
+
+.typing .indicator {
+    display: inline-block;
+    padding: 0 2px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    text-align: right;
+    min-width: 3em;
+    margin-right: 14px;
+    }
+    .typing .indicator .value {
+        color: #2e3436;
+        }
+    .typing .indicator.progress {
+        }
+    .typing .indicator.timer {
+        }
+    .typing .indicator.speedometer {
+        min-width: 5em;
+        }
+    .typing .indicator.errors-counter {
+        background: #fff0f0;
+        }
+
+.typing button.reload {
+    float: right;
+    }
+
+
+.typing .lesson {
+    }
+.typing .lesson .text {
+    display: block;
+    height: 122px;
+    width: 95%;
+    clear: both;
+    margin: 0 0 14px;
+    padding: 14px;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    border: 1px solid #888a85;
+    border-radius: 2px;
+    color: #888a85;
+    font-size: 2em;
+    line-height: 120%;
+    font-family: monospace;
+    }
+    .typing .lesson .text .typed {
+        background: #0c0;
+        color: #fff;
+        }
+        .typing .lesson .text .typed .invalid {
+            background: #c00;
+            }
+    .typing .lesson .text .marker {
+        background: #0cf;
+        color: #fff;
+        }
+
+
+.typing .layout-wrapper {
+    text-align: center;
+    }
+.typing .layout {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    }
+    .typing .layout .row {
+        display: block;
+        }
+        .typing .layout .key-box {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            vertical-align: top;
+            text-align: center;
+            background: #f0f0f0;
+            border-radius: 2px;
+            font-size: 18px;
+            margin: 0 4px 4px 0;
+            color: #ccc;
+            text-shadow: 0px 1px 1px #fff;
+            overflow: hidden;
+            }
+            .typing .layout .key-box.blank {
+                background: none;
+                width: 14px;
+                margin-right: 2px;
+                }
+
+            .typing .layout .key {
+                display: block;
+                overflow: hidden;
+                width: 28px;
+                height: 28px;
+                vertical-align: top;
+                }
+                .typing .layout .key.active {
+                    color: #333;
+                    }
+                .typing .layout .key.highlight {
+                    color: #fff;
+                    text-shadow: 0px 1px 1px #555;
+                    background: #888a85;
+                    }
+                .typing .layout .key.shift {
+                    display: none;
+                    text-transform: uppercase;
+                    }
+                    .typing .layout.shift-mode .key {
+                        display: none;
+                        }
+                    .typing .layout.shift-mode .key.shift {
+                        display: inline-block;
+                        }
+
+.typing .congratulation {
+    color: #c00;
+    }
+
+.copyright {
+    margin-top: 35px;
+    font-size: 12px;
+    color: #888a85;
+    }
